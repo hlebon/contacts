@@ -22,15 +22,14 @@ const contacts = [
   }
 ]
 
-
-class App extends Component {
-  render() {
+//const App = (props) => Component
+class App extends Component{
+  render(){
     return (
       <div>
-          <h1>Hola Mundo :)</h1>
-          <ListContacts contacts={contacts} pan="hola"/>
+          <ListContacts contacts={contacts}/>
      </div>
-    );
+    )
   }
 }
 
