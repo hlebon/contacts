@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
+import PropTypes from "prop-types";
 
 
 //const ListContacts = (props) => Component(
@@ -19,5 +20,13 @@ function ListContacts(props) {
             </ol>
         )
 }
+
+
+//property to staless functional component
+ListContacts.PropTypes = {
+    contacts: PropTypes.array.isRequired,
+    onDelete: PropTypes.func.isRequired
+}
+
 
 export default ListContacts;
