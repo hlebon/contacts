@@ -7,8 +7,7 @@ class App extends Component{
   state = {
     contacts: []
   }
-
-
+  
   componentDidMount(){
     ContactsAPI.getAll().then((contacts) => {
       this.setState( {contacts} ); //like: {contacts: contacts}
@@ -21,7 +20,7 @@ class App extends Component{
       contacts: state.contacts.filter((c) => c.id !== contact.id)
     }))
 
-    ConctatsAPI.remove(contact); //remove from database
+    ContactsAPI.remove(contact); //remove from database
 
     //if not use this
     //this.setState({})
