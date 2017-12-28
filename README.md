@@ -5,6 +5,7 @@
 
 - [About](#about)
 - [Installing](#installing)
+- [Dependency](#dependency)
 - [Launch](#launch)
 - [Something is missing?](#something-is-missing)
 
@@ -14,6 +15,9 @@ Contact project: It is a basic app written in react and react-dom
 ## Installing
 Installing the app and dependencies:
 ### `npm install`
+
+## Dependency
+Make sure you have the server running. [contact server](https://github.com/hlebon/reactnd-contacts-server)
 
 ## Launch
 Inside the project run:
